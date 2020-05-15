@@ -1,0 +1,17 @@
+{
+  "name": "venomosuboy/doctrine-enumerable-type",
+  "description": "Doctrine enumerable type",
+  "type": "library",
+  "license": "proprietary",
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^7.2",
+    "doctrine/orm": "^2.4",
+    "litgroup/enumerable": "^0.7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Venomousboy\\DoctrineEnumerableType\\": "src/"
+    }
+  }
+}
